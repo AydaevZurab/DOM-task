@@ -20,6 +20,8 @@ list.append(li);
 
 li.append(a);
 
+function colorChange(color) {
+ document.body.style.background = color;
+}
 
-// document.body.style.background = 'red';
-//         setTimeout(() => document.body.style.background = '', 3000)
+colorChange('green'); 
